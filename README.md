@@ -1,3 +1,3 @@
 # furniroom
-project untuk submission Dicoding 
-project ini menerapkan custom element dan async await javascript
+project untuk submission Dicoding. 
+pada project ini menerapkan Custom Element dan Async Await Javascript
