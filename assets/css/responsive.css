@@ -1,0 +1,441 @@
+@media screen and (max-width: 1265px){
+    #news section figure img{
+        width: 250px;
+    }
+
+    #promo article figure img{
+        width: 80%;
+    }
+}
+
+/* for tablet */
+@media screen and (max-width: 1000px){
+    #collections, #product, #promo, #news{
+        padding: 100px 50px 0px 50px;
+    }
+
+    #collections header, #product header, #promo header, #news header{
+        padding-bottom: 50px;
+    }
+
+    .item-collection-primary{
+        flex-basis: 100%;
+    }
+
+    .item-collection{
+        flex-basis: 48.2%;
+    }
+
+    #product article section{
+        flex-basis: 48.6%;
+    }
+
+    #news{
+        padding: 100px 50px;
+    }
+
+    #news article section{
+        flex-basis: 48.6%;
+        margin-bottom: 25px;
+    }
+
+}
+
+/* for smartphone */
+@media screen and (max-width: 693px){
+    #top-header{
+        padding: 0px 25px;
+        flex-wrap: wrap;
+    }
+
+    #menu{
+        flex-basis: 5%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 25px 0px;
+    }
+
+    nav{
+        flex-basis: 100%;
+        display: none;
+    }
+
+    nav ul{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    nav li a{
+        padding: 20px 100%;
+    }
+
+    nav.show{
+        display: flex;
+    }
+
+    nav li a:hover{
+        background-color: #E4F6FA;
+    }
+
+    #bottom-header{
+        padding-left: 25px;
+    }
+
+    #bottom-header h1{
+        font-size: 50px;
+    }
+    
+    #bottom-header p{
+        font-size: 15px;
+    }
+
+    #button-signup a{
+        font-size: 13px;
+    }
+
+    #collections, #product, #promo, #news{
+        padding: 100px 25px 0px 25px;
+    }
+
+    #collections header, #product header, #promo header, #news header{
+        padding-bottom: 50px;
+    }
+
+    #collections header h2, #product header h2, #promo header h2 ,#news header h2, aside h2{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    #collections header p, #promo header p, #news header p{
+        font-size: 13px;
+    }
+
+    .item-collection-primary{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .detail-item-primary{
+        padding: 55px 20px 50px 10px;
+    }
+
+    .detail-item-primary h3, .item-collection h3{
+        font-size: 18px;
+    }
+
+    .detail-item-primary p{
+        font-size: 13px;
+    }
+
+    .detail-item-primary a{
+        font-size: 13px;
+    }
+
+    .detail-item-primary img{
+        flex-basis: 5%;
+    }
+
+    .item-collection{
+        flex-basis: 47.9%;
+        padding-bottom: 20px;
+    }
+
+    .item-collection a{
+        font-size: 13px;
+    }
+
+    #product header li a{
+        font-size: 13px;
+        padding-right: 25px;
+    }
+
+    .new{
+        font-size: 11px;
+    }
+
+    #product article section{
+        flex-basis: 47.9%;
+    }
+
+    #product section h3{
+        font-size: 14px;
+    }
+
+    #product section h3+p{
+        font-size: 12px;
+    }
+
+    #product footer a{
+        font-size: 12px;
+    }
+
+    #promo header+article{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #promo article figure{
+        flex-basis: 100%;
+    }
+
+    #promo figure+article{
+        flex-basis: 100%;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #promo figure+article p:nth-child(1){
+        font-size: 15px;
+    }
+
+    #promo figure+article h2{
+        font-size: 28px;
+    }
+
+    #promo figure+article h2+p{
+        font-size: 14px;
+    }
+
+    #promo figure+article a{
+        font-size: 14px;
+    }
+
+    #news{
+        padding: 100px 25px;
+    }
+
+    #news article section{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+    #news section h3{
+        font-size: 15px;
+    }
+
+    #news section p{
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+
+    #news section a{
+        font-size: 12px;
+    }
+
+    #advertisement h2{
+        font-size: 29px;
+        padding-bottom: 4px;
+    }
+
+    #advertisement p{
+        font-size: 15px;
+    }
+
+    #advertisement input{
+        font-size: 12px;
+    }
+
+    #advertisement button{
+        font-size: 12px;
+    }
+
+    aside{
+        padding: 0px 25px;
+    }
+
+    #bio{
+        flex-wrap: wrap;
+    }
+
+    #bio article{
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+    #bio header{
+        flex-basis: 100%;
+        padding-bottom: 30px;
+    }
+
+    #bio article h3{
+        font-size: 15px;
+    }
+
+    #bio article p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #bio li a{
+        font-size: 13px;
+    }
+
+    main+footer{
+        padding: 15px 25px;
+    }
+
+    #author p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 461px){
+    #bottom-header h1{
+        font-size: 40px;
+    }
+
+    #bottom-header p{
+        font-size: 14px;
+    }
+
+    #button-signup a{
+        font-size: 12px;
+    }
+
+    #collections header h2, #product header h2, #promo header h2 ,#news header h2, aside h2{
+        font-size: 21px;
+        padding-bottom: 3px;
+    }
+
+    .item-collection-primary{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    #collections header p, #promo header p, #news header p{
+        font-size: 12px;
+    }
+
+    .item-collection-primary figure{
+        padding: 50px 0px;
+    }
+
+    .item-collection-primary figure img{
+        width: 100%;
+    }
+
+    .detail-item-primary h3, .item-collection h3{
+        font-size: 17px;
+    }
+
+    .detail-item-primary p{
+        font-size: 12px;
+    }
+
+    .detail-item-primary img{
+        flex-basis: 4%;
+    }
+
+    .item-collection{
+        flex-basis: 100%;
+        padding-bottom: 15px;
+    }
+
+    .item-collection h3{
+        padding: 15px 0px 0px 25px;
+    }
+
+    .item-collection a{
+        font-size: 12px;
+        padding: 0px 25px 15px 0px;
+    }
+
+    #product header li a{
+        font-size: 12px;
+    }
+
+    #product article section{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .new{
+        font-size: 10px;
+    }
+
+    #product section h3{
+        font-size: 13px;
+    }
+
+    #product section h3+p{
+        font-size: 11px;
+    }
+
+    #product footer a{
+        font-size: 11px;
+    }
+
+    #promo figure+article p:nth-child(1){
+        font-size: 14px;
+    }
+
+    #promo figure+article h2{
+        font-size: 27px;
+    }
+
+    #promo figure+article h2+p{
+        font-size: 13px;
+    }
+
+    #promo figure+article a{
+        font-size: 13px;
+    }
+
+    #news section h3{
+        font-size: 14px;
+    }
+
+    #news section p{
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+
+    #news section a{
+        font-size: 11px;
+    }
+
+    #advertisement h2{
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 4px;
+    }
+
+    #advertisement p{
+        font-size: 14px;
+    }
+
+    #advertisement input{
+        font-size: 11px;
+        width: 200px;
+    }
+
+    #advertisement button{
+        font-size: 11px;
+    }
+
+    #bio article h3{
+        font-size: 14px;
+    }
+
+    #bio article p{
+        font-size: 13px;
+    }
+
+    #bio li a{
+        font-size: 13px;
+    }
+
+    #author p{
+        font-size: 9px;
+    }
+}
